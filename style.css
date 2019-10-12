@@ -8,14 +8,20 @@
 }
 
 .jumbotron {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 600px;
-  margin-top: 50px;
+  /* position: absolute;
+  left: 50%; */
+  /* transform: translateX(-50%); */
+  /* width: 600px; */
+  margin: 50px 20%;
   padding: 10px 50px 50px
 }
 
 .invisible {
   display: none !important
+}
+
+@media (max-width: 600px) {
+  .jumbotron {
+    margin: 50px 5%;
+  }
 }
