@@ -1,6 +1,10 @@
 * {
-  margin : 0;
-  padding: 0
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url("istockphoto-858944712.jpg");
 }
 
 .badge {
@@ -8,20 +12,25 @@
 }
 
 .jumbotron {
-  /* position: absolute;
-  left: 50%; */
-  /* transform: translateX(-50%); */
-  /* width: 600px; */
-  margin: 50px 20%;
-  padding: 10px 50px 50px
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 600px;
+  margin: 50px 0;
+  padding: 10px 50px 50px;
 }
 
 .invisible {
-  display: none !important
+  display: none !important;
 }
 
 @media (max-width: 600px) {
   .jumbotron {
     margin: 50px 5%;
   }
+}
+
+.important,
+header {
+  background-color: #0099cc;
 }
