@@ -32,5 +32,6 @@ body {
 
 .important,
 header {
-  background-color: #0099cc;
+  background-color: cadetblue;
+  color: aliceblue;
 }
